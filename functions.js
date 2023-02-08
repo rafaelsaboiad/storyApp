@@ -1,49 +1,32 @@
-const animais = [
-	"Cachorro",
-	"Gato",
-	"Pássaro",
-	"Peixe",
-	"Coelho",
-	"Hamster",
-	"Leão",
-	"Tigre",
-	"Elefante",
-	"Girafa",
-	"Zebra",
-	"Hipopótamo",
-	"Jaguar",
-	"Puma",
-	"Onça-pintada",
-	"Lobo",
-	"Urso",
-	"Raposa",
-	"Golfinho",
-	"Baleia",
-	"Orca",
-	"Tartaruga",
-	"Crocodilo",
-	"Jabuti",
-	"Arara",
-	"Papagaio",
-	"Avestruz",
-	"Ganso",
-	"Pato",
-	"Cisne",
-	"Garça",
-]
+// Defina o texto inicial da história
+// Defina o texto inicial da história
+var story = "Hoje, [personagem] foi ao [local] para encontrar [objeto]. Enquanto isso, sentiu [emoção]."
 
-function replaceAnimais() {
-	const textElement = document.getElementById("animais")
-	let text = textElement.innerHTML
+// Defina as arrays de palavras para substituir
+var personagens = ["João", "Maria", "Pedro", "Ana"]
+var locais = ["parque", "praia", "café", "shopping"]
+var objetos = ["livro", "flor", "chave", "dinheiro"]
+var emoções = ["feliz", "triste", "animado", "cansado"]
 
-	const randomIndex = Math.floor(Math.random() * animais.length)
-	const randomWord = animais[randomIndex]
+// Função para gerar uma nova história
+function generateStory() {
+	// Escolha aleatoriamente uma palavra de cada array
+	let personagem = personagens[Math.floor(Math.random() * personagens.length)]
+	let local = locais[Math.floor(Math.random() * locais.length)]
+	let objeto = objetos[Math.floor(Math.random() * objetos.length)]
+	let emoção = emoções[Math.floor(Math.random() * emoções.length)]
 
-	text = text.replace("original", animais)
+	// Substitua as palavras na história
+	var newStory = story.replace("[personagem]", personagem)
+	newStory = newStory.replace("[local]", local)
+	newStory = newStory.replace("[objeto]", objeto)
+	newStory = newStory.replace("[emoção]", emoção)
 
-	textElement.innerHTML = animais
+	// Atualize o texto na página
+	document.getElementById("story").innerHTML = newStory
 }
 
-//Neste exemplo, uma array words é criada com as palavras alternativas.
-//Na função replaceWords(), uma palavra aleatória é escolhida usando Math.floor(Math.random() * words.length), que gera um número inteiro aleatório entre 0 e words.
-//length - 1. Em seguida, a palavra aleatória é usada para substituir a palavra "original". O resto do código é semelhante ao exemplo anterior.
+// Adicione um botão para gerar a história
+window.onload = function () {
+	document.getElementById("generate-button").addEventListener("click", generateStory)
+}
