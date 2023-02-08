@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-nav {
+	position: relative;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+
+	background-color: darkgray;
+}
+
+.main-story {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: fit-content;
+	text-align: center;
+
+	margin-top: 100px;
+	background-color: rgb(228, 228, 228);
+}
+
+.story-text {
+	position: relative;
+	display: flex;
+
+	background-color: darkgray;
+}
