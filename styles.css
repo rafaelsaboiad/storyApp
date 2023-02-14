@@ -52,3 +52,30 @@ body {
 	position: absolute;
 	top: 773px;
 }
+
+/*_______________________________ RESPONSIVIDADE _______________________________*/
+
+/* Dispositivos com largura menor que 600px e altura menor que 960px */
+@media screen and (max-width: 599px) and (max-height: 959px) {
+	/* Inserir estilos aqui */
+}
+
+/* Dispositivos com largura entre 600px e 767px e altura menor que 1024px */
+@media screen and (min-width: 600px) and (max-width: 767px) and (max-height: 1023px) {
+	/* Inserir estilos aqui */
+}
+
+/* Dispositivos com largura entre 768px e 991px e altura menor que 1080px */
+@media screen and (min-width: 768px) and (max-width: 991px) and (max-height: 1079px) {
+	/* Inserir estilos aqui */
+}
+
+/* Dispositivos com largura entre 992px e 1199px e altura menor que 1200px */
+@media screen and (min-width: 992px) and (max-width: 1199px) and (max-height: 1199px) {
+	/* Inserir estilos aqui */
+}
+
+/* Dispositivos com largura maior que 1200px e altura menor que 1600px */
+@media screen and (min-width: 1200px) and (max-height: 1599px) {
+	/* Inserir estilos aqui */
+}
