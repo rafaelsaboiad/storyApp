@@ -37,17 +37,18 @@ body {
 .ellipse1 {
 	background-color: #362a74;
 	height: 157px;
-	width: 150%;
+	width: 541px;
 	filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
 	border-radius: 50%;
 	position: absolute;
+	top: -78px;
 }
 
 .ellipse2 {
 	background-color: #362a74;
 	height: 157px;
-	width: 150%;
+	width: 541px;
 	border-radius: 50%;
 	position: absolute;
-	top: 573px;
+	top: 773px;
 }
