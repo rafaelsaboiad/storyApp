@@ -1,8 +1,10 @@
-* {
+html,
+body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
-
 .container-nav {
 	position: relative;
 	display: flex;
@@ -29,6 +31,26 @@
 .story-text {
 	position: relative;
 	display: flex;
-
 	background-color: darkgray;
+}
+
+.ellipse1 {
+	background-color: #362a74;
+	height: 157px;
+	width: 541px;
+	filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+	border-radius: 50%;
+	position: absolute;
+	top: -78px;
+	left: -74px;
+}
+
+.ellipse2 {
+	background-color: #362a74;
+	height: 157px;
+	width: 541px;
+	border-radius: 50%;
+	position: absolute;
+	top: 773px;
+	left: -74px;
 }
