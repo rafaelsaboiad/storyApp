@@ -13,7 +13,7 @@ html {
 body {
 	background-image: url(./content/indexAboutBG.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto;
 }
 
 main {
@@ -96,6 +96,7 @@ main {
 	border-color: #e6e6f2;
 	border-style: solid;
 	border-top: 0px;
+	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.404);
 }
 
 .rectbot {
