@@ -88,7 +88,6 @@ main {
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-	vertical-align: middle;
 }
 
 .aquaticBtn {
@@ -97,6 +96,7 @@ main {
 	border-style: solid;
 	border-color: #e6e6f2;
 	margin-right: 2.5em;
+	margin-top: -1em;
 }
 
 .forestBtn {
@@ -104,6 +104,7 @@ main {
 	border-width: 5px;
 	border-style: solid;
 	border-color: #e6e6f2;
+	margin-top: -1em;
 }
 
 .savannaBtn {
@@ -112,7 +113,7 @@ main {
 	border-style: solid;
 	border-color: #e6e6f2;
 	margin-right: 2.5em;
-	margin-top: -5.5em;
+	margin-top: -6.5em;
 }
 
 .spaceBtn {
@@ -120,7 +121,7 @@ main {
 	border-width: 5px;
 	border-style: solid;
 	border-color: #e6e6f2;
-	margin-top: -5.5em;
+	margin-top: -6.5em;
 }
 
 .polarBtn {
@@ -129,7 +130,7 @@ main {
 	border-style: solid;
 	border-color: #e6e6f2;
 	margin-right: 2.5em;
-	margin-top: -5.5em;
+	margin-top: -6.5em;
 }
 
 .desertBtn {
@@ -137,5 +138,5 @@ main {
 	border-width: 5px;
 	border-style: solid;
 	border-color: #e6e6f2;
-	margin-top: -5.5em;
+	margin-top: -6.5em;
 }
