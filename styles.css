@@ -51,3 +51,57 @@ main {
 	border-width: 5px;
 	border-color: #e6e6f2;
 }
+.btnLocal {
+	width: 100vw;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.aquaticBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-right: 2.5em;
+}
+
+.forestBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+}
+
+.savannaBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-right: 2.5em;
+}
+
+.spaceBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+}
+
+.polarBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-right: 2.5em;
+}
+
+.desertBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+}
