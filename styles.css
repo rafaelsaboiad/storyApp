@@ -56,7 +56,6 @@ main {
 	height: 80vh;
 	display: flex;
 	align-items: center;
-	vertical-align: middle;
 	flex-wrap: wrap;
 	justify-content: center;
 }
