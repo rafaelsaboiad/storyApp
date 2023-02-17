@@ -1,5 +1,5 @@
 * {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Mali", cursive;
 	font-size: 1em;
 	margin: 0px;
 	padding: 0px;
@@ -25,8 +25,10 @@ main {
 }
 
 .recttop {
+	display: flex;
 	position: relative;
 	align-self: center;
+	justify-content: center;
 	width: 100vw;
 	height: 9vh;
 	background-color: #362a74;
@@ -38,9 +40,22 @@ main {
 	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.404);
 }
 
+.title {
+	display: flex;
+	align-self: center;
+	color: #e6e6f2;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 2.5em;
+	margin-bottom: 0.15em;
+	text-decoration: none;
+}
+
 .rectbot {
+	display: flex;
 	position: absolute;
 	align-self: center;
+	justify-content: center;
 	width: 100vw;
 	height: 9vh;
 	background-color: #362a74;
@@ -51,6 +66,18 @@ main {
 	border-width: 5px;
 	border-color: #e6e6f2;
 }
+
+.about {
+	display: flex;
+	align-self: center;
+	color: #e6e6f2;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 2.5em;
+	margin-bottom: 0.15em;
+	text-decoration: none;
+}
+
 .btnLocal {
 	width: 100vw;
 	height: 80vh;
