@@ -11,9 +11,10 @@ html {
 }
 
 body {
-	background-image: url(./content/indexAboutBG.png);
+	background-image: url(./content/forest1.png);
+	background-position: 90%;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 215%;
 	overflow: hidden;
 }
 
@@ -27,14 +28,14 @@ main {
 	vertical-align: middle;
 }
 
-.recttop {
+.recttopFloresta {
 	display: flex;
 	position: relative;
 	align-self: center;
 	justify-content: center;
 	width: 100vw;
 	height: 9vh;
-	background-color: #362a74;
+	background-color: #7c3413;
 	border-radius: 0px 0px 10em 10em;
 	border-width: 5px;
 	border-color: #e6e6f2;
@@ -43,7 +44,7 @@ main {
 	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.404);
 }
 
-.title {
+.titleFloresta {
 	display: flex;
 	align-self: center;
 	color: #e6e6f2;
@@ -54,14 +55,14 @@ main {
 	text-decoration: none;
 }
 
-.rectbot {
+.rectbotFloresta {
 	display: flex;
 	position: absolute;
 	align-self: center;
 	justify-content: center;
 	width: 100vw;
 	height: 9vh;
-	background-color: #362a74;
+	background-color: #7c3413;
 	border-radius: 10em 10em 0em 0em;
 	bottom: 0;
 	border-style: solid;
@@ -70,7 +71,7 @@ main {
 	border-color: #e6e6f2;
 }
 
-.about {
+.voltar {
 	display: flex;
 	align-self: center;
 	color: #e6e6f2;
@@ -81,62 +82,12 @@ main {
 	text-decoration: none;
 }
 
-.btnLocal {
-	width: 100vw;
-	height: 82vh;
+.story-text {
 	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.634);
+	text-align: center;
 }
 
-.aquaticBtn {
-	border-radius: 15px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #e6e6f2;
-	margin-right: 2.5em;
-	margin-top: -2.5em;
-}
-
-.forestBtn {
-	border-radius: 15px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #e6e6f2;
-	margin-top: -2.5em;
-}
-
-.savannaBtn {
-	border-radius: 15px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #e6e6f2;
-	margin-right: 2.5em;
-	margin-top: -6.5em;
-}
-
-.spaceBtn {
-	border-radius: 15px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #e6e6f2;
-	margin-top: -6.5em;
-}
-
-.polarBtn {
-	border-radius: 15px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #e6e6f2;
-	margin-right: 2.5em;
-	margin-top: -6.5em;
-}
-
-.desertBtn {
-	border-radius: 15px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #e6e6f2;
-	margin-top: -6.5em;
+.storyFloresta {
+	text-align: center;
 }
