@@ -94,7 +94,7 @@ main {
 	border-radius: 15px;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	max-height: 65.5vh;
+	max-height: 55vh;
 	font-size: 1.5em;
 	font-weight: 700;
 	font-style: bold;
@@ -112,7 +112,7 @@ main {
 
 .config-button {
 	display: flex;
-	width: 45vw;
+	width: 60vw;
 	height: 7vh;
 	border-radius: 15px;
 	align-items: center;
