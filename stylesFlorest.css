@@ -28,6 +28,10 @@ main {
 	vertical-align: middle;
 }
 
+.main-story {
+	margin-top: 2.5vh;
+}
+
 .recttopFloresta {
 	display: flex;
 	position: relative;
@@ -84,10 +88,52 @@ main {
 
 .story-text {
 	display: flex;
+	flex-direction: column;
 	background-color: rgba(255, 255, 255, 0.634);
 	text-align: center;
+	border-radius: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 65.5vh;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: bold;
+}
+
+.text-title {
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: bold;
 }
 
 .storyFloresta {
 	text-align: center;
+}
+
+.config-button {
+	display: flex;
+	width: 45vw;
+	height: 7vh;
+	border-radius: 15px;
+	align-items: center;
+	justify-content: center;
+	border-width: 5px;
+	border-color: #e6e6f2;
+	border-style: solid;
+	background-color: #7c3413;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: bold;
+	color: #e6e6f2;
+	position: absolute;
+}
+
+.locate-button {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	position: fixed;
+	bottom: 17vh;
+	left: 50vw;
 }
