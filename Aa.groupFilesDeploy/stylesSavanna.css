@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background-image: url(../content/savanna2.png);
+	background-image: url(./savanna2.png);
 	background-position: 90%;
 	background-repeat: no-repeat;
 	background-size: 215%;

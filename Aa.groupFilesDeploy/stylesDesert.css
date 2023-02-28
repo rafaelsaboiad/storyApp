@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background-image: url(../content/desert2.png);
+	background-image: url(./desert2.png);
 	background-position: 55%;
 	background-repeat: no-repeat;
 	background-size: 190%;

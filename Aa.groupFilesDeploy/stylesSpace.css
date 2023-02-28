@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background-image: url(../content/space.png);
+	background-image: url(./space.png);
 	background-position: 80%;
 	background-repeat: no-repeat;
 	background-size: 200%;
