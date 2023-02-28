@@ -11,10 +11,9 @@ html {
 }
 
 body {
-	background-image: url(../content/biomaAquatico3.png);
-	background-position: 90%;
+	background-image: url(../content/indexAboutBG.png);
 	background-repeat: no-repeat;
-	background-size: 215%;
+	background-size: 100%;
 	overflow: hidden;
 }
 
@@ -28,19 +27,14 @@ main {
 	vertical-align: middle;
 }
 
-.main-story {
-	margin-top: 2.5vh;
-}
-
-.recttopAqua {
+.recttop {
 	display: flex;
 	position: relative;
 	align-self: center;
 	justify-content: center;
 	width: 100vw;
 	height: 9vh;
-	margin-bottom: 5vh;
-	background-color: #0992af;
+	background-color: #362a74;
 	border-radius: 0px 0px 10em 10em;
 	border-width: 5px;
 	border-color: #e6e6f2;
@@ -49,7 +43,7 @@ main {
 	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.404);
 }
 
-.titleAqua {
+.title {
 	display: flex;
 	align-self: center;
 	color: #e6e6f2;
@@ -60,15 +54,14 @@ main {
 	text-decoration: none;
 }
 
-.rectbotAqua {
+.rectbot {
 	display: flex;
 	position: absolute;
 	align-self: center;
 	justify-content: center;
 	width: 100vw;
 	height: 9vh;
-	margin-top: 12vh;
-	background-color: #0992af;
+	background-color: #362a74;
 	border-radius: 10em 10em 0em 0em;
 	bottom: 0;
 	border-style: solid;
@@ -77,7 +70,7 @@ main {
 	border-color: #e6e6f2;
 }
 
-.voltar {
+.about {
 	display: flex;
 	align-self: center;
 	color: #e6e6f2;
@@ -88,54 +81,62 @@ main {
 	text-decoration: none;
 }
 
-.story-text {
+.btnLocal {
+	width: 100vw;
+	height: 82vh;
 	display: flex;
-	flex-direction: column;
-	background-color: rgba(255, 255, 255, 0.634);
-	text-align: center;
-	border-radius: 15px;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	max-height: 55vh;
-	font-size: 1.5em;
-	font-weight: 700;
-	font-style: bold;
-}
-
-.text-title {
-	font-size: 1.5em;
-	font-weight: 700;
-	font-style: bold;
-}
-
-.storyAqua {
-	text-align: center;
-}
-
-.config-button {
-	display: flex;
-	width: 60vw;
-	height: 7vh;
-	border-radius: 15px;
 	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.aquaticBtn {
+	border-radius: 15px;
 	border-width: 5px;
-	border-color: #e6e6f2;
 	border-style: solid;
-	background-color: #0992af;
-	font-size: 1.5em;
-	font-weight: 700;
-	font-style: bold;
-	color: #e6e6f2;
-	position: absolute;
+	border-color: #e6e6f2;
+	margin-right: 2.5em;
+	margin-top: -2.5em;
 }
 
-.locate-button {
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	position: fixed;
-	bottom: 17vh;
-	left: 50vw;
+.forestBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-top: -2.5em;
+}
+
+.savannaBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-right: 2.5em;
+	margin-top: -6.5em;
+}
+
+.spaceBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-top: -6.5em;
+}
+
+.polarBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-right: 2.5em;
+	margin-top: -6.5em;
+}
+
+.desertBtn {
+	border-radius: 15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #e6e6f2;
+	margin-top: -6.5em;
 }

@@ -291,7 +291,7 @@ function generateStory() {
 	newStory = newStory.replace(/\[Tamanho2\]/g, tamanhoY)
 
 	// Atualize o texto na página
-	document.getElementById("storyFloresta").innerHTML = newStory
+	document.getElementById("storySpace").innerHTML = newStory
 }
 
 // Adicione um botão para gerar a história

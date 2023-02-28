@@ -11,10 +11,10 @@ html {
 }
 
 body {
-	background-image: url(../content/biomaAquatico3.png);
-	background-position: 90%;
+	background-image: url(../content/polar.png);
+	background-position: 55%;
 	background-repeat: no-repeat;
-	background-size: 215%;
+	background-size: 200%;
 	overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ main {
 	margin-top: 2.5vh;
 }
 
-.recttopAqua {
+.recttopPolar {
 	display: flex;
 	position: relative;
 	align-self: center;
@@ -40,7 +40,7 @@ main {
 	width: 100vw;
 	height: 9vh;
 	margin-bottom: 5vh;
-	background-color: #0992af;
+	background-color: #71c1ab;
 	border-radius: 0px 0px 10em 10em;
 	border-width: 5px;
 	border-color: #e6e6f2;
@@ -49,7 +49,7 @@ main {
 	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.404);
 }
 
-.titleAqua {
+.titlePolar {
 	display: flex;
 	align-self: center;
 	color: #e6e6f2;
@@ -60,7 +60,7 @@ main {
 	text-decoration: none;
 }
 
-.rectbotAqua {
+.rectbotPolar {
 	display: flex;
 	position: absolute;
 	align-self: center;
@@ -68,7 +68,7 @@ main {
 	width: 100vw;
 	height: 9vh;
 	margin-top: 12vh;
-	background-color: #0992af;
+	background-color: #71c1ab;
 	border-radius: 10em 10em 0em 0em;
 	bottom: 0;
 	border-style: solid;
@@ -108,7 +108,7 @@ main {
 	font-style: bold;
 }
 
-.storyAqua {
+.storyPolar {
 	text-align: center;
 }
 
@@ -122,7 +122,7 @@ main {
 	border-width: 5px;
 	border-color: #e6e6f2;
 	border-style: solid;
-	background-color: #0992af;
+	background-color: #71c1ab;
 	font-size: 1.5em;
 	font-weight: 700;
 	font-style: bold;
