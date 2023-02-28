@@ -1,0 +1,141 @@
+* {
+	font-family: "Mali", cursive;
+	font-size: 1em;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100vh;
+}
+
+body {
+	background-image: url(../content/forest1.png);
+	background-position: 90%;
+	background-repeat: no-repeat;
+	background-size: 215%;
+	overflow: hidden;
+}
+
+main {
+	width: 100vw;
+	margin: auto;
+	border-radius: 15px;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	vertical-align: middle;
+}
+
+.main-story {
+	margin-top: 2.5vh;
+}
+
+.recttopFloresta {
+	display: flex;
+	position: relative;
+	align-self: center;
+	justify-content: center;
+	width: 100vw;
+	height: 9vh;
+	margin-bottom: 5vh;
+	background-color: #7c3413;
+	border-radius: 0px 0px 10em 10em;
+	border-width: 5px;
+	border-color: #e6e6f2;
+	border-style: solid;
+	border-top: 0px;
+	box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.404);
+}
+
+.titleFloresta {
+	display: flex;
+	align-self: center;
+	color: #e6e6f2;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 2.5em;
+	margin-bottom: 0.15em;
+	text-decoration: none;
+}
+
+.rectbotFloresta {
+	display: flex;
+	position: absolute;
+	align-self: center;
+	justify-content: center;
+	width: 100vw;
+	height: 9vh;
+	margin-top: 12vh;
+	background-color: #7c3413;
+	border-radius: 10em 10em 0em 0em;
+	bottom: 0;
+	border-style: solid;
+	border-bottom: 0px;
+	border-width: 5px;
+	border-color: #e6e6f2;
+}
+
+.voltar {
+	display: flex;
+	align-self: center;
+	color: #e6e6f2;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 2.5em;
+	margin-bottom: 0.15em;
+	text-decoration: none;
+}
+
+.story-text {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 0.634);
+	text-align: center;
+	border-radius: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 55vh;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: bold;
+}
+
+.text-title {
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: bold;
+}
+
+.storyFloresta {
+	text-align: center;
+}
+
+.config-button {
+	display: flex;
+	width: 60vw;
+	height: 7vh;
+	border-radius: 15px;
+	align-items: center;
+	justify-content: center;
+	border-width: 5px;
+	border-color: #e6e6f2;
+	border-style: solid;
+	background-color: #7c3413;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: bold;
+	color: #e6e6f2;
+	position: absolute;
+}
+
+.locate-button {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	position: fixed;
+	bottom: 17vh;
+	left: 50vw;
+}
